@@ -6,6 +6,7 @@ import About from "./pages/about";
 import Blog from "./pages/blog";
 import BlogDetail from "./pages/blog/detailPage";
 import Portfolio from "./pages/portfolio";
+import PortfolioDetail from "./pages/portfolio/detailPage";
 import Contact from "./pages/contact";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/blog-single" component={BlogDetail} />
+        <Route exact path="/portfolio-single" component={PortfolioDetail} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
       </Layout>

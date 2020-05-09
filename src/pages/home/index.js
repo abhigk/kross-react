@@ -70,13 +70,105 @@ export default () => (
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
             <p class="font-secondary paragraph-lg text-dark">
-            I am 3+ years experienced FullStack Developer and UI/UX Designer, I have developed many expert level projects and 
+            I am an experienced FullStack Developer and UI/UX Designer. I have developed many expert level projects and
             design eye catchy websites and mobile apps. My expertise are developing responsive websites, hybrid mobile development,
             backend development and UI/UX Designing.
             </p>
             {/* <a href="about.html" class="btn btn-transparent">
               know more
             </a> */}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className="section">
+      <div className="container">
+        <div className="row">
+          <div className="col-12 text-center">
+            <h2 className="section-title">My Work</h2>
+          </div>
+        </div>
+        <div className="row shuffle-wrapper">
+          <div className="col-lg-4 col-6 mb-4 shuffle-item">
+            <div className="position-relative rounded hover-wrapper">
+              <img
+                  src="images/portfolio/item-1.png"
+                  alt="portfolio-image"
+                  className="img-fluid rounded w-100"
+              />
+              <div className="hover-overlay">
+                <div className="hover-content">
+                  <a className="btn btn-light btn-sm" href="project-single.html">
+                    view project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-6 mb-4 shuffle-item">
+            <div className="position-relative rounded hover-wrapper">
+              <img
+                  src="images/portfolio/item-2.png"
+                  alt="portfolio-image"
+                  className="img-fluid rounded w-100"
+              />
+              <div className="hover-overlay">
+                <div className="hover-content">
+                  <a className="btn btn-light btn-sm" href="project-single.html">
+                    view project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-6 mb-4 shuffle-item">
+            <div className="position-relative rounded hover-wrapper">
+              <img
+                  src="images/portfolio/item-3.png"
+                  alt="portfolio-image"
+                  className="img-fluid rounded w-100"
+              />
+              <div className="hover-overlay">
+                <div className="hover-content">
+                  <a className="btn btn-light btn-sm" href="project-single.html">
+                    view project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-6 mb-4 shuffle-item">
+            <div className="position-relative rounded hover-wrapper">
+              <img
+                  src="images/portfolio/item-4.png"
+                  alt="portfolio-image"
+                  className="img-fluid rounded w-100"
+              />
+              <div className="hover-overlay">
+                <div className="hover-content">
+                  <a className="btn btn-light btn-sm" href="project-single.html">
+                    view project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-6 mb-4 shuffle-item">
+            <div className="position-relative rounded hover-wrapper">
+              <img
+                  src="images/portfolio/item-5.png"
+                  alt="portfolio-image"
+                  className="img-fluid rounded w-100"
+              />
+              <div className="hover-overlay">
+                <div className="hover-content">
+                  <a className="btn btn-light btn-sm" href="project-single.html">
+                    view project
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -93,27 +185,27 @@ export default () => (
           <div class="col-lg-3 col-md-4 text-center">
             <img src="images/experience/icon-1.png" alt="icon" />
             <h4 style={{ fontWeight: 'bold', paddingBottom: '10%'}}>Website & Backend Development</h4>
-            <h5 >- React JS (Frontend)</h5>
-            <h5 >- HTML & CSS (Frontend)</h5>
-            <h5 >- Booststrap (Frontend)</h5>
-            <h5 >- Node JS (BACKEND)</h5>
+            <h5 >React JS (Frontend)</h5>
+            <h5 >HTML & CSS (Frontend)</h5>
+            <h5 >Booststrap (Frontend)</h5>
+            <h5 >Node JS (BACKEND)</h5>
 
 
           </div>
           <div class="col-lg-3 col-md-4 text-center">
             <img src="images/experience/icon-2.png" alt="icon" />
             <h4 style={{ fontWeight: 'bold',  paddingBottom: '10%'}}>Hybrid Mobile Development</h4>
-            <h5 >- React Native (Frontend)</h5>
-            <h5 >- Node JS (Backend)</h5>
-         
+            <h5 >React Native (Frontend)</h5>
+            <h5 >Node JS (Backend)</h5>
+
           </div>
           <div class="col-lg-3 col-md-4 text-center">
             <img src="images/experience/icon-3.png" alt="icon" />
             <h4 style={{ fontWeight: 'bold',  paddingBottom: '10%'}}>UI/UX Designing</h4>
-            <h5 >- Figma Framework</h5>
-            <h5 >- Sketch Framework</h5>
-            <h5 >- Zeplin Framework</h5>
-      
+            <h5 >Figma Framework</h5>
+            <h5 >Sketch Framework</h5>
+            <h5 >rZeplin Framework</h5>
+
           </div>
         </div>
       </div>
@@ -229,242 +321,152 @@ export default () => (
       </div>
     </section> */}
 
-    <section class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2 class="section-title">Portfolio</h2>
-          </div>
-        </div>
-        <div class="row shuffle-wrapper">
-          <div class="col-lg-4 col-6 mb-4 shuffle-item">
-            <div class="position-relative rounded hover-wrapper">
-              <img
-                src="images/portfolio/item-1.png"
-                alt="portfolio-image"
-                class="img-fluid rounded w-100"
-              />
-              <div class="hover-overlay">
-                <div class="hover-content">
-                  <a class="btn btn-light btn-sm" href="project-single.html">
-                    view project
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-6 mb-4 shuffle-item">
-            <div class="position-relative rounded hover-wrapper">
-              <img
-                src="images/portfolio/item-2.png"
-                alt="portfolio-image"
-                class="img-fluid rounded w-100"
-              />
-              <div class="hover-overlay">
-                <div class="hover-content">
-                  <a class="btn btn-light btn-sm" href="project-single.html">
-                    view project
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-6 mb-4 shuffle-item">
-            <div class="position-relative rounded hover-wrapper">
-              <img
-                src="images/portfolio/item-3.png"
-                alt="portfolio-image"
-                class="img-fluid rounded w-100"
-              />
-              <div class="hover-overlay">
-                <div class="hover-content">
-                  <a class="btn btn-light btn-sm" href="project-single.html">
-                    view project
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-6 mb-4 shuffle-item">
-            <div class="position-relative rounded hover-wrapper">
-              <img
-                src="images/portfolio/item-4.png"
-                alt="portfolio-image"
-                class="img-fluid rounded w-100"
-              />
-              <div class="hover-overlay">
-                <div class="hover-content">
-                  <a class="btn btn-light btn-sm" href="project-single.html">
-                    view project
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-6 mb-4 shuffle-item">
-            <div class="position-relative rounded hover-wrapper">
-              <img
-                src="images/portfolio/item-5.png"
-                alt="portfolio-image"
-                class="img-fluid rounded w-100"
-              />
-              <div class="hover-overlay">
-                <div class="hover-content">
-                  <a class="btn btn-light btn-sm" href="project-single.html">
-                    view project
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
 
     <Testimonials />
 
-    <section class="section pb-0">
-      <div class="container">
-        <div class="client-logo-slider d-flex align-items-center">
-          <a href="#" class="text-center d-block outline-0 p-4">
-            <img
-              class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-1.png"
-              alt="client-logo"
-            />
-          </a>
-          <a href="#" class="text-center d-block outline-0 p-4">
-            <img
-              class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-2.png"
-              alt="client-logo"
-            />
-          </a>
-          <a href="#" class="text-center d-block outline-0 p-4">
-            <img
-              class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-3.png"
-              alt="client-logo"
-            />
-          </a>
-          <a href="#" class="text-center d-block outline-0 p-4">
-            <img
-              class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-4.png"
-              alt="client-logo"
-            />
-          </a>
-          <a href="#" class="text-center d-block outline-0 p-4">
-            <img
-              class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-5.png"
-              alt="client-logo"
-            />
-          </a>
-          <a href="#" class="text-center d-block outline-0 p-4">
-            <img
-              class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-1.png"
-              alt="client-logo"
-            />
-          </a>
-          <a href="#" class="text-center d-block outline-0 p-4">
-            <img
-              class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-2.png"
-              alt="client-logo"
-            />
-          </a>
-          <a href="#" class="text-center d-block outline-0 p-4">
-            <img
-              class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-3.png"
-              alt="client-logo"
-            />
-          </a>
-          <a href="#" class="text-center d-block outline-0 p-4">
-            <img
-              class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-4.png"
-              alt="client-logo"
-            />
-          </a>
-          <a href="#" class="text-center d-block outline-0 p-4">
-            <img
-              class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-5.png"
-              alt="client-logo"
-            />
-          </a>
-        </div>
-      </div>
-    </section>
+    {/*<section class="section pb-0">*/}
+    {/*  <div class="container">*/}
+    {/*    <div class="client-logo-slider d-flex align-items-center">*/}
+    {/*      <a href="#" class="text-center d-block outline-0 p-4">*/}
+    {/*        <img*/}
+    {/*          class="d-unset img-fluid"*/}
+    {/*          src="images/clients-logo/client-logo-1.png"*/}
+    {/*          alt="client-logo"*/}
+    {/*        />*/}
+    {/*      </a>*/}
+    {/*      <a href="#" class="text-center d-block outline-0 p-4">*/}
+    {/*        <img*/}
+    {/*          class="d-unset img-fluid"*/}
+    {/*          src="images/clients-logo/client-logo-2.png"*/}
+    {/*          alt="client-logo"*/}
+    {/*        />*/}
+    {/*      </a>*/}
+    {/*      <a href="#" class="text-center d-block outline-0 p-4">*/}
+    {/*        <img*/}
+    {/*          class="d-unset img-fluid"*/}
+    {/*          src="images/clients-logo/client-logo-3.png"*/}
+    {/*          alt="client-logo"*/}
+    {/*        />*/}
+    {/*      </a>*/}
+    {/*      <a href="#" class="text-center d-block outline-0 p-4">*/}
+    {/*        <img*/}
+    {/*          class="d-unset img-fluid"*/}
+    {/*          src="images/clients-logo/client-logo-4.png"*/}
+    {/*          alt="client-logo"*/}
+    {/*        />*/}
+    {/*      </a>*/}
+    {/*      <a href="#" class="text-center d-block outline-0 p-4">*/}
+    {/*        <img*/}
+    {/*          class="d-unset img-fluid"*/}
+    {/*          src="images/clients-logo/client-logo-5.png"*/}
+    {/*          alt="client-logo"*/}
+    {/*        />*/}
+    {/*      </a>*/}
+    {/*      <a href="#" class="text-center d-block outline-0 p-4">*/}
+    {/*        <img*/}
+    {/*          class="d-unset img-fluid"*/}
+    {/*          src="images/clients-logo/client-logo-1.png"*/}
+    {/*          alt="client-logo"*/}
+    {/*        />*/}
+    {/*      </a>*/}
+    {/*      <a href="#" class="text-center d-block outline-0 p-4">*/}
+    {/*        <img*/}
+    {/*          class="d-unset img-fluid"*/}
+    {/*          src="images/clients-logo/client-logo-2.png"*/}
+    {/*          alt="client-logo"*/}
+    {/*        />*/}
+    {/*      </a>*/}
+    {/*      <a href="#" class="text-center d-block outline-0 p-4">*/}
+    {/*        <img*/}
+    {/*          class="d-unset img-fluid"*/}
+    {/*          src="images/clients-logo/client-logo-3.png"*/}
+    {/*          alt="client-logo"*/}
+    {/*        />*/}
+    {/*      </a>*/}
+    {/*      <a href="#" class="text-center d-block outline-0 p-4">*/}
+    {/*        <img*/}
+    {/*          class="d-unset img-fluid"*/}
+    {/*          src="images/clients-logo/client-logo-4.png"*/}
+    {/*          alt="client-logo"*/}
+    {/*        />*/}
+    {/*      </a>*/}
+    {/*      <a href="#" class="text-center d-block outline-0 p-4">*/}
+    {/*        <img*/}
+    {/*          class="d-unset img-fluid"*/}
+    {/*          src="images/clients-logo/client-logo-5.png"*/}
+    {/*          alt="client-logo"*/}
+    {/*        />*/}
+    {/*      </a>*/}
+    {/*    </div>*/}
+    {/*  </div>*/}
+    {/*</section>*/}
 
-    <section class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2 class="section-title">Blogs</h2>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-            <article class="card shadow">
-              <img class="rounded card-img-top" src="images/blog/post-3.jpg" alt="post-thumb" />
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a class="text-dark" href="blog-single.html">
-                    Amazon increase income 1.5 Million
-                  </a>
-                </h4>
-                <p class="cars-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua.
-                </p>
-                <a href="blog-single.html" class="btn btn-xs btn-primary">
-                  Read More
-                </a>
-              </div>
-            </article>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-            <article class="card shadow">
-              <img class="rounded card-img-top" src="images/blog/post-4.jpg" alt="post-thumb" />
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a class="text-dark" href="blog-single.html">
-                    Amazon increase income 1.5 Million
-                  </a>
-                </h4>
-                <p class="cars-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua.
-                </p>
-                <a href="blog-single.html" class="btn btn-xs btn-primary">
-                  Read More
-                </a>
-              </div>
-            </article>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-            <article class="card shadow">
-              <img class="rounded card-img-top" src="images/blog/post-2.jpg" alt="post-thumb" />
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a class="text-dark" href="blog-single.html">
-                    Amazon increase income 1.5 Million
-                  </a>
-                </h4>
-                <p class="cars-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua.
-                </p>
-                <a href="blog-single.html" class="btn btn-xs btn-primary">
-                  Read More
-                </a>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
+    {/*<section class="section">*/}
+    {/*  <div class="container">*/}
+    {/*    <div class="row">*/}
+    {/*      <div class="col-12 text-center">*/}
+    {/*        <h2 class="section-title">Blogs</h2>*/}
+    {/*      </div>*/}
+    {/*      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">*/}
+    {/*        <article class="card shadow">*/}
+    {/*          <img class="rounded card-img-top" src="images/blog/post-3.jpg" alt="post-thumb" />*/}
+    {/*          <div class="card-body">*/}
+    {/*            <h4 class="card-title">*/}
+    {/*              <a class="text-dark" href="blog-single.html">*/}
+    {/*                Amazon increase income 1.5 Million*/}
+    {/*              </a>*/}
+    {/*            </h4>*/}
+    {/*            <p class="cars-text">*/}
+    {/*              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor*/}
+    {/*              incididunt ut labore et dolore magna aliqua.*/}
+    {/*            </p>*/}
+    {/*            <a href="blog-single.html" class="btn btn-xs btn-primary">*/}
+    {/*              Read More*/}
+    {/*            </a>*/}
+    {/*          </div>*/}
+    {/*        </article>*/}
+    {/*      </div>*/}
+    {/*      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">*/}
+    {/*        <article class="card shadow">*/}
+    {/*          <img class="rounded card-img-top" src="images/blog/post-4.jpg" alt="post-thumb" />*/}
+    {/*          <div class="card-body">*/}
+    {/*            <h4 class="card-title">*/}
+    {/*              <a class="text-dark" href="blog-single.html">*/}
+    {/*                Amazon increase income 1.5 Million*/}
+    {/*              </a>*/}
+    {/*            </h4>*/}
+    {/*            <p class="cars-text">*/}
+    {/*              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor*/}
+    {/*              incididunt ut labore et dolore magna aliqua.*/}
+    {/*            </p>*/}
+    {/*            <a href="blog-single.html" class="btn btn-xs btn-primary">*/}
+    {/*              Read More*/}
+    {/*            </a>*/}
+    {/*          </div>*/}
+    {/*        </article>*/}
+    {/*      </div>*/}
+    {/*      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">*/}
+    {/*        <article class="card shadow">*/}
+    {/*          <img class="rounded card-img-top" src="images/blog/post-2.jpg" alt="post-thumb" />*/}
+    {/*          <div class="card-body">*/}
+    {/*            <h4 class="card-title">*/}
+    {/*              <a class="text-dark" href="blog-single.html">*/}
+    {/*                Amazon increase income 1.5 Million*/}
+    {/*              </a>*/}
+    {/*            </h4>*/}
+    {/*            <p class="cars-text">*/}
+    {/*              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor*/}
+    {/*              incididunt ut labore et dolore magna aliqua.*/}
+    {/*            </p>*/}
+    {/*            <a href="blog-single.html" class="btn btn-xs btn-primary">*/}
+    {/*              Read More*/}
+    {/*            </a>*/}
+    {/*          </div>*/}
+    {/*        </article>*/}
+    {/*      </div>*/}
+    {/*    </div>*/}
+    {/*  </div>*/}
+    {/*</section>*/}
   </>
 );

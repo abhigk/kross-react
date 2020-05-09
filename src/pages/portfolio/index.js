@@ -1,10 +1,13 @@
 import React, {useState,useEffect} from "react";
+import {Link,useHistory} from 'react-router-dom';
+
 import Clients from "../../components/sections/clients";
 import homeatryBanner from "../../images/slides/homeatry.png";
 import ktmgBanner from "../../images/slides/ktmg.png";
 import alshiraa from "../../images/slides/Al-shiraa-arabians.png"
 import networker from "../../images/slides/the-networker.png"
 import networkerWeb from "../../images/slides/networkerWeb.png"
+import teamexBanner from "../../images/works/teamex-project-preview.png"
 
 const data = [
   {
@@ -25,16 +28,23 @@ const data = [
   {
     category:['design','ui'],
     src:networker,
-    link:'project-single.html',
+    title:"networker"
   },
   {
     category:['website','illustration'],
     src:networkerWeb,
-    link:'project-single.html',
+    title:"networkWeb"
+  },
+  {
+    category:['website','illustration'],
+    src:teamexBanner,
+    titile:"Teamex",
+    content:"Teamex website is made on ReactJs. It has landing page and a cart functionality fully working on client web browser. User can view products and make payments."
   },
 ];
 
 export default () => {
+  let history = useHistory();
 
   const [projects,setProjects] = useState(data);
 
@@ -56,6 +66,10 @@ export default () => {
 
   };
 
+  const onProjectClick = (displayData) =>{
+    history.push("/portfolio-single",{displayData:displayData});
+  };
+
 
   const ProjectCard = ({category,src,link}) =>{
     return(
@@ -68,7 +82,7 @@ export default () => {
             />
             <div className="hover-overlay">
               <div className="hover-content">
-                <a className="btn btn-light btn-sm" href={link}>
+                <a className="btn btn-light btn-sm" onClick={link}>
                   view project
                 </a>
               </div>
@@ -127,7 +141,7 @@ export default () => {
         <div class="row shuffle-wrapper">
           {projects.map(x=>{
             return(
-                <ProjectCard category={x.category} src={x.src} link={x.link} />
+                <ProjectCard category={x.category} src={x.src} link={()=>onProjectClick(x)} />
             )
           })}
 

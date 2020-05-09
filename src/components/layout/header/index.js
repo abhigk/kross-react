@@ -10,7 +10,7 @@ export default () => (
   <header class="navigation fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand font-tertiary h3" href="/">
-        <img src="images/logo.png" alt="Myself" />
+        <div>ABHI</div>
       </a>
       <button
         class="navbar-toggler"
@@ -33,9 +33,9 @@ export default () => (
           <li class="nav-item">
             <Link to="/about" class="nav-link">About</Link>
           </li>
-          <li class="nav-item">
-            <Link to="/blog" class="nav-link">Blog</Link>
-          </li>
+          {/*<li class="nav-item">*/}
+          {/*  <Link to="/blog" class="nav-link">Blog</Link>*/}
+          {/*</li>*/}
           <li class="nav-item">
             <Link to="/portfolio" class="nav-link">Portfolio</Link>
           </li>

@@ -5,11 +5,12 @@ export default () => (
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="section-title">Contact Info</h2>
+          <h2 class="section-title">Contact Me</h2>
         </div>
         <div class="col-lg-8 mx-auto">
           <div class="bg-white rounded text-center p-5 shadow-down">
-            <h4 class="mb-80">Contact Form</h4>
+            <h4 class="mb-80">Interested in working together? <br/>We should queue up a chat.
+              I’ll buy the coffee.</h4>
             <form action="#" class="row">
               <div class="col-md-6">
                 <input
